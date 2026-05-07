@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamim Mansol Amin — Portfolio</title>
+  <meta name="description" content="Portfolio of Hamim Mansol Amin — Developer, Operations Specialist, and lifelong learner building AI-powered tools and enterprise systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <!-- Grain Overlay -->
+  <div class="grain"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo" data-magnetic>HMA<span class="accent">.</span></a>
+    <div class="nav__links" id="navLinks">
+      <a href="#about" class="nav__link" data-magnetic>About</a>
+      <a href="#experience" class="nav__link" data-magnetic>Experience</a>
+      <a href="#projects" class="nav__link" data-magnetic>Projects</a>
+      <a href="#certifications" class="nav__link" data-magnetic>Certs</a>
+      <a href="#contact" class="nav__link nav__link--cta" data-magnetic>Contact</a>
+    </div>
+    <button class="nav__burger" id="navBurger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__greeting reveal-text">Hello, my name is</p>
+        <h1 class="hero__name" id="heroName">
+          <span class="hero__name-line" data-scramble>HAMIM</span>
+          <span class="hero__name-line hero__name-line--indent" data-scramble>MANSOL AMIN</span>
+        </h1>
+        <p class="hero__tagline reveal-text">Developer &amp; Operations Specialist crafting intelligent systems that solve real problems.</p>
+        <div class="hero__actions reveal-text">
+          <a href="#projects" class="btn btn--primary" data-magnetic>View My Work</a>
+          <a href="#contact" class="btn btn--ghost" data-magnetic>Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+      <div class="hero__badge">
+        <span>Available for work</span>
+        <span class="hero__badge-dot"></span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="section about" id="about">
+      <div class="section__number">01</div>
+      <div class="about__grid">
+        <div class="about__left">
+          <div class="about__avatar-wrap reveal-up">
+            <img src="assets/avatar.png" alt="Hamim Mansol Amin" class="about__avatar">
+            <div class="about__avatar-ring"></div>
+          </div>
+        </div>
+        <div class="about__right">
+          <h2 class="section__heading reveal-up">About <em>Me</em></h2>
+          <p class="about__bio reveal-up">I'm a 23-year-old self-taught developer and operations professional based in Indonesia. With hands-on experience in manufacturing and supply chain management, I bridge the gap between <strong>industry know-how</strong> and <strong>modern technology</strong>.</p>
+          <p class="about__bio reveal-up">I build AI-powered tools — from Telegram bots analyzing crypto markets to full-stack warehouse analytics platforms — all driven by a passion for turning complex data into actionable insight.</p>
+          <div class="about__details reveal-up">
+            <div class="about__detail">
+              <span class="about__detail-label">Born</span>
+              <span class="about__detail-value">Tegal, Nov 27, 2002</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">Education</span>
+              <span class="about__detail-value">S1 Management — Universitas Terbuka</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">High School</span>
+              <span class="about__detail-value">SMAN 19 Kota Bekasi — IPS</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__stats reveal-up">
+          <div class="stat">
+            <span class="stat__number" data-count="4">0</span>
+            <span class="stat__label">Years of<br>Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="3">0</span>
+            <span class="stat__label">Projects<br>Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number" data-count="7">0</span>
+            <span class="stat__label">Certifications<br>Earned</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section class="section experience" id="experience">
+      <div class="section__number">02</div>
+      <h2 class="section__heading section__heading--center reveal-up">Work <em>Experience</em></h2>
+      <div class="timeline">
+        <div class="timeline__line"></div>
+
+        <div class="timeline__item timeline__item--right reveal-up">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card" data-tilt>
+            <span class="timeline__date">May 2025 — Present</span>
+            <h3 class="timeline__role">Compounding Substore Coordinator</h3>
+            <p class="timeline__company">PT Rudy Soetadi</p>
+            <p class="timeline__desc">Managing compound material substore operations, coordinating inventory flow, and optimizing storage systems for manufacturing efficiency.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline__item--left reveal-up">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card" data-tilt>
+            <span class="timeline__date">Jan 2024 — Jan 2025</span>
+            <h3 class="timeline__role">Operator Finishing</h3>
+            <p class="timeline__company">PT NGK Ceramics Indonesia</p>
+            <p class="timeline__desc">Operated finishing processes in ceramic manufacturing with precision quality control and production line optimization.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline__item--right reveal-up">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card" data-tilt>
+            <span class="timeline__date">May 2023 — Nov 2023</span>
+            <h3 class="timeline__role">Pramuniaga (Intern)</h3>
+            <p class="timeline__company">CV Aneka Kebutuhan Niaga</p>
+            <p class="timeline__desc">Hands-on retail internship managing customer service, inventory tracking, and daily store operations.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline__item--left reveal-up">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card" data-tilt>
+            <span class="timeline__date">Dec 2021 — Dec 2022</span>
+            <h3 class="timeline__role">Operator Formulasi</h3>
+            <p class="timeline__company">PT Mayora Indah Tbk</p>
+            <p class="timeline__desc">Formulation operations in one of Indonesia's largest FMCG companies, handling precise ingredient measurement and batch processing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="section projects" id="projects">
+      <div class="section__number">03</div>
+      <h2 class="section__heading reveal-up">Selected <em>Projects</em></h2>
+      <p class="section__subtitle reveal-up">Real-world tools I've built from scratch — no templates, no tutorials.</p>
+
+      <div class="projects__track" id="projectsTrack">
+        <!-- Project 1 -->
+        <article class="project-card" data-tilt>
+          <div class="project-card__visual project-card__visual--crypto">
+            <div class="project-card__icon">📊</div>
+            <div class="project-card__pattern"></div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__label">Telegram Bot — AI Agent</span>
+            <h3 class="project-card__title">Crypto Saham Agent</h3>
+            <p class="project-card__desc">AI-powered Telegram bot for crypto &amp; stock analysis using a 10-point scoring system, technical indicators (RSI, MACD, Bollinger), AI-generated narratives, money flow analysis, and BSJP screener for LQ45 stocks.</p>
+            <div class="project-card__stack">
+              <span class="badge">Python</span>
+              <span class="badge">Gemini AI</span>
+              <span class="badge">Telegram API</span>
+              <span class="badge">Supabase</span>
+            </div>
+            <a href="https://t.me/cryptosahamku_bot" target="_blank" rel="noopener" class="project-card__link" data-magnetic>
+              Open Bot <span>&rarr;</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-tilt>
+          <div class="project-card__visual project-card__visual--supply">
+            <div class="project-card__icon">⚡</div>
+            <div class="project-card__pattern"></div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__label">Web App — AI Dashboard</span>
+            <h3 class="project-card__title">Supply Chain Predictor</h3>
+            <p class="project-card__desc">Full-stack AI supply chain dashboard with demand forecasting, inventory management, supplier tracking, and predictive analytics. Features command palette and real-time stock alerts.</p>
+            <div class="project-card__stack">
+              <span class="badge">Next.js</span>
+              <span class="badge">React</span>
+              <span class="badge">Supabase</span>
+              <span class="badge">Gemini AI</span>
+              <span class="badge">Chart.js</span>
+            </div>
+            <a href="https://supply-chain-predictor-nine.vercel.app/" target="_blank" rel="noopener" class="project-card__link" data-magnetic>
+              Visit Site <span>&rarr;</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-tilt>
+          <div class="project-card__visual project-card__visual--inventa">
+            <div class="project-card__icon">🏭</div>
+            <div class="project-card__pattern"></div>
+          </div>
+          <div class="project-card__info">
+            <span class="project-card__label">Web App — Analytics Platform</span>
+            <h3 class="project-card__title">Inventa</h3>
+            <p class="project-card__desc">Warehouse analytics platform featuring ABC-XYZ analysis, EOQ calculator, demand forecasting, stock movement reports, and supplier management. Built for real manufacturing environments.</p>
+            <div class="project-card__stack">
+              <span class="badge">Next.js</span>
+              <span class="badge">React</span>
+              <span class="badge">Supabase</span>
+              <span class="badge">Chart.js</span>
+              <span class="badge">Vercel</span>
+            </div>
+            <a href="https://inventa-theta.vercel.app/" target="_blank" rel="noopener" class="project-card__link" data-magnetic>
+              Visit Site <span>&rarr;</span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="projects__nav">
+        <button class="projects__arrow projects__arrow--prev" id="projPrev" data-magnetic>&larr;</button>
+        <button class="projects__arrow projects__arrow--next" id="projNext" data-magnetic>&rarr;</button>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section class="section certs" id="certifications">
+      <div class="section__number">04</div>
+      <h2 class="section__heading section__heading--center reveal-up">Certifications <em>&amp; Learning</em></h2>
+      <div class="certs__grid">
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--google"></div>
+          <h3 class="cert-card__title">Prompt Design in Vertex AI</h3>
+          <p class="cert-card__issuer">Google Cloud — Skill Badge</p>
+          <span class="cert-card__date">August 2025</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--myskill"></div>
+          <h3 class="cert-card__title">Microsoft Excel Basic</h3>
+          <p class="cert-card__issuer">MySkill — Specialization</p>
+          <span class="cert-card__date">February 2025</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--dicoding"></div>
+          <h3 class="cert-card__title">Belajar Dasar Manajemen Proyek</h3>
+          <p class="cert-card__issuer">Dicoding Indonesia</p>
+          <span class="cert-card__date">September 2024</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--dicoding"></div>
+          <h3 class="cert-card__title">Cloud Practitioner Essentials (AWS)</h3>
+          <p class="cert-card__issuer">Dicoding Indonesia</p>
+          <span class="cert-card__date">April 2024</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--dicoding"></div>
+          <h3 class="cert-card__title">Belajar Dasar Pemrograman JavaScript</h3>
+          <p class="cert-card__issuer">Dicoding Indonesia</p>
+          <span class="cert-card__date">March 2024</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--dicoding"></div>
+          <h3 class="cert-card__title">Belajar Membuat Front-End Web untuk Pemula</h3>
+          <p class="cert-card__issuer">Dicoding Indonesia</p>
+          <span class="cert-card__date">March 2024</span>
+        </div>
+
+        <div class="cert-card reveal-up" data-tilt>
+          <div class="cert-card__badge cert-card__badge--dicoding"></div>
+          <h3 class="cert-card__title">Belajar Dasar Pemrograman Web</h3>
+          <p class="cert-card__issuer">Dicoding Indonesia</p>
+          <span class="cert-card__date">February 2024</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS MARQUEE ==================== -->
+    <div class="marquee-section">
+      <div class="marquee">
+        <div class="marquee__inner">
+          <span class="marquee__item">JavaScript</span>
+          <span class="marquee__item">Python</span>
+          <span class="marquee__item">React</span>
+          <span class="marquee__item">Next.js</span>
+          <span class="marquee__item">HTML & CSS</span>
+          <span class="marquee__item">Supabase</span>
+          <span class="marquee__item">PostgreSQL</span>
+          <span class="marquee__item">Gemini AI</span>
+          <span class="marquee__item">Vertex AI</span>
+          <span class="marquee__item">Chart.js</span>
+          <span class="marquee__item">Telegram Bot API</span>
+          <span class="marquee__item">Git & GitHub</span>
+          <span class="marquee__item">Vercel</span>
+          <span class="marquee__item">AWS Cloud</span>
+          <span class="marquee__item">Data Visualization</span>
+          <span class="marquee__item">Supply Chain</span>
+          <span class="marquee__item">Inventory Management</span>
+          <span class="marquee__item">Project Management</span>
+          <span class="marquee__item">Microsoft Excel</span>
+          <!-- Duplicated for seamless loop -->
+          <span class="marquee__item">JavaScript</span>
+          <span class="marquee__item">Python</span>
+          <span class="marquee__item">React</span>
+          <span class="marquee__item">Next.js</span>
+          <span class="marquee__item">HTML & CSS</span>
+          <span class="marquee__item">Supabase</span>
+          <span class="marquee__item">PostgreSQL</span>
+          <span class="marquee__item">Gemini AI</span>
+          <span class="marquee__item">Vertex AI</span>
+          <span class="marquee__item">Chart.js</span>
+          <span class="marquee__item">Telegram Bot API</span>
+          <span class="marquee__item">Git & GitHub</span>
+          <span class="marquee__item">Vercel</span>
+          <span class="marquee__item">AWS Cloud</span>
+          <span class="marquee__item">Data Visualization</span>
+          <span class="marquee__item">Supply Chain</span>
+          <span class="marquee__item">Inventory Management</span>
+          <span class="marquee__item">Project Management</span>
+          <span class="marquee__item">Microsoft Excel</span>
+        </div>
+      </div>
+      <div class="marquee marquee--reverse">
+        <div class="marquee__inner">
+          <span class="marquee__item">API Integration</span>
+          <span class="marquee__item">Technical Analysis</span>
+          <span class="marquee__item">AI Prompt Engineering</span>
+          <span class="marquee__item">Full-Stack Development</span>
+          <span class="marquee__item">Manufacturing Operations</span>
+          <span class="marquee__item">Quality Control</span>
+          <span class="marquee__item">Warehouse Management</span>
+          <span class="marquee__item">REST APIs</span>
+          <span class="marquee__item">Responsive Design</span>
+          <span class="marquee__item">Database Design</span>
+          <span class="marquee__item">API Integration</span>
+          <span class="marquee__item">Technical Analysis</span>
+          <span class="marquee__item">AI Prompt Engineering</span>
+          <span class="marquee__item">Full-Stack Development</span>
+          <span class="marquee__item">Manufacturing Operations</span>
+          <span class="marquee__item">Quality Control</span>
+          <span class="marquee__item">Warehouse Management</span>
+          <span class="marquee__item">REST APIs</span>
+          <span class="marquee__item">Responsive Design</span>
+          <span class="marquee__item">Database Design</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section contact" id="contact">
+      <div class="section__number">05</div>
+      <h2 class="contact__heading reveal-up">Let's build<br><em>something together.</em></h2>
+      <p class="contact__sub reveal-up">Whether you have a project idea, job opportunity, or just want to say hello — I'd love to hear from you.</p>
+      <a href="mailto:hamimmansolamin@gmail.com" class="contact__email reveal-up" data-magnetic>hamimmansolamin@gmail.com</a>
+      <div class="contact__socials reveal-up">
+        <a href="https://www.linkedin.com/in/hamim-mansol-amin" target="_blank" rel="noopener" class="social-link" data-magnetic aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://github.com/Hamim151821" target="_blank" rel="noopener" class="social-link" data-magnetic aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="https://www.instagram.com/hamim_m.a" target="_blank" rel="noopener" class="social-link" data-magnetic aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://facebook.com/hamim.mansolamin" target="_blank" rel="noopener" class="social-link" data-magnetic aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Hamim Mansol Amin. Built with passion &amp; late nights.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
