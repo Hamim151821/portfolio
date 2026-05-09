@@ -50,11 +50,11 @@ button{border:none;background:none;cursor:none;font:inherit;color:inherit}
 @media(max-width:768px){
   .nav{padding:1rem 1.5rem;background:rgba(10,14,26,.95);backdrop-filter:blur(12px)}
   .nav.scrolled{padding:.7rem 1.5rem;background:rgba(10,14,26,.98)}
-  .nav__links{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;gap:2.5rem;transform:translateX(100%);transition:transform .5s var(--ease);z-index:999}
+  .nav__links{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;gap:2.5rem;transform:translateX(100%);transition:transform .5s var(--ease);z-index:1002}
   .nav__links.open{transform:translateX(0)}
   .nav__link{font-size:1.4rem;text-transform:none;color:var(--text)}
   .nav__link--cta{font-size:1rem}
-  .nav__burger{display:flex;z-index:1001}
+  .nav__burger{display:flex;z-index:1003}
   .nav__burger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
   .nav__burger.open span:nth-child(2){opacity:0}
   .nav__burger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
@@ -152,6 +152,7 @@ button{border:none;background:none;cursor:none;font:inherit;color:inherit}
 .projects__track{display:flex;gap:2rem;overflow-x:auto;padding:2rem 0;scroll-snap-type:x mandatory;-ms-overflow-style:none;scrollbar-width:none}
 .projects__track::-webkit-scrollbar{display:none}
 .project-card{min-width:min(420px,calc(100vw - 3rem));scroll-snap-align:start;background:var(--bg2);border:1px solid rgba(255,255,255,.05);border-radius:16px;overflow:hidden;transition:all .4s var(--ease);flex-shrink:0}
+@media(max-width:768px){.project-card{min-width:calc(100vw - 3rem);max-width:calc(100vw - 3rem)}}
 .project-card:hover{border-color:var(--accent-soft);box-shadow:0 20px 60px rgba(0,0,0,.4)}
 .project-card__visual{height:220px;position:relative;overflow:hidden}
 .project-card__visual--crypto{background:linear-gradient(135deg,#f59e0b,#ef4444,#b91c1c)}
